@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(147, 111, 170);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    /* height: 293px;
+    width: 1245px; */
+    background-image: url(img/2.webp);
+    background-color:  rgb(147, 111, 170);
+    opacity: 60%;
+    text-align: center;
+
+
+}
+.square{
+    background-color: pink;
+    height: 200px;
+    width:200px;
+    text-align: center;
+}
+
+#textheader {
+    color: pink;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.main-menu {
+    margin-top: 0;
+    background-color:rgb(147, 111, 170);
+    font-family: 'Open Sans', sans-serif;
+    opacity: 60%;
+    text-decoration: none;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-menu ul .menu-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-menu ul .menu-item a {
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: all .3s;
+    border: 5px solid  white;
+}
+#desc {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: white;
+
+}
+
+.sndp {
+    color: pink;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Silkscreen', cursive;
+}
+
+.song-rec {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkwrapper a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.linkwrapper .song {
+    flex-basis: 25%
+}
+
+a img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid  white;
+}
+
+.linkwrapper a:hover {
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.social-link {
+    color: pink;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.guzik{
+    background-color: pink;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    width: 50px;
+    height: 30px;
+
+}
+.contact textarea {
+    flex-basis: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+    text-align: center;
+}
+.social-links {
+    margin-top: 75px;
+    text-align: center;
+}
+
+
+.contact form {
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.social-links .social-link {
+    font-size: 2.5em;
+    color: pink;
+    transition: all .3s;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+.social-links .social-link:hover {
+  opacity: 40%;
+}
