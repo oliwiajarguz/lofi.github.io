@@ -6,15 +6,19 @@
 body {
     background-color: rgb(147, 111, 170);
 }
-
+/* odeseparowac containery , cont do about w flex, stopka position */
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
-
-    font-family: 'Open Sans', sans-serif;
+/* 
+    font-family: 'Open Sans', sans-serif; */
     font-family: 'Silkscreen', cursive;
     /* height: 293px;
     width: 1245px; */
@@ -109,16 +113,14 @@ a img {
 .linkwrapper a:hover {
     opacity: 40%;
     cursor: pointer;
+    transition: all .3s;
 }
 
 .social-link {
     color: pink;
 
 }
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .guzik{
     background-color: pink;
@@ -126,6 +128,8 @@ a img {
     color: white;
     width: 50px;
     height: 30px;
+    border-radius: 15px;
+    border: 1px solid pink;
 
 }
 .contact textarea {
@@ -134,21 +138,26 @@ a img {
     margin-bottom: 15px;
     height: 100px;
     text-align: center;
+    width: 60vw;
+    resize: vertical;
+    left: 0;
 }
-.social-links {
-    margin-top: 75px;
-    text-align: center;
-}
-
 
 .contact form {
     max-width: 700px;
-    margin: 40px auto 30px auto;
-    display: flex;
+    /* margin: 40px auto 30px auto; */
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-
+    justify-content: space-between; */
+   position: relative;
 }
+
+.social-links {
+    margin-top: 75px;
+    text-align: center;
+    right: 0;
+}
+
 .social-links .social-link {
     font-size: 2.5em;
     color: pink;
